@@ -70,3 +70,324 @@ body{
 .para4 h1{
    color: white;
 }
+.content4{
+    padding: 1.3rem;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+    
+    .content4 h1{
+        color: black;
+    }
+    .heading-3{
+        padding-left: 20px;
+    }
+    .para4{
+        display: block;
+        color: black;
+    }
+    .heading-3{
+        padding-left: 20px;
+    }
+    .para4{
+        display: block;
+        color: black;
+    }
+    .button{
+        background-color: black;
+        border-radius: 8px;
+        width: 280px;
+    }
+    .button h2{
+        color: yellow;
+        text-align: center;
+    }
+    .button:hover{
+        background-color: white;
+        cursor: pointer;
+    }
+    .button h2:hover{
+        color: black;
+    }
+    hr{
+        margin-top: 30px;
+    }
+    .head4 h1{
+        color: white;
+        font-size: 27px;
+    }
+    .para5{
+        color: white;
+    }
+    .co{
+        color: yellow;
+    }
+    .content-4{
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+    .content-5{
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .head5{
+        color: white;
+    }
+    .eight{
+        margin: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .eight p{
+        color: white;
+    }
+    .ek{
+        display: flex;
+        width: 150px;
+        flex-direction: column;
+    }
+    .head6{
+        color: white;
+    }
+    .content-6{
+        display: flex;
+        justify-content: space-between;
+        margin:  30px;
+    }
+    .head7 h1{
+        color: white;
+    }
+    .head7 p{
+        color: white;
+    }
+    .q{
+        display: flex;
+        margin: 0px 50px;
+    }
+    .q h1{
+        color: yellow;
+        font-size: 16px;
+        margin-right: 60px;
+    }
+    .q p{
+        text-decoration: line-through;
+        color: white;
+    }
+    .content-7 img{
+        background-color: yellow;
+        height: 350px;
+        margin-top: 400px;
+    }
+    .content-7{
+        display: flex;
+        column-gap: 20px;
+        justify-content: space-between;
+    }
+    @media (max-width:1399px) {
+        .content p br {
+            display: none;
+        }
+        .content-1 {
+            flex-direction: column;
+        }
+        .content-2 #para2{
+            font-size: 15px;
+        }
+        .content-1 .image{
+             display: flex;
+             justify-content: space-between;
+             column-gap: 8px;
+        }
+    }
+    @media (max-width:991px) {
+        .eight .ek p{
+            font-size: 10px;
+        }
+        .eight .ek img{
+           width: 80px;
+        }
+        .content-4 .image3 img{
+            width: 400px;
+            
+        }
+        .content-4 .head4 p{
+            font-size: 20px;
+        }
+        .content-1 .image img{
+            width: 150px;
+        }
+        .head #para2{
+            font-size: 12px;
+        }
+        .content-2 .head2 #para3{
+            font-size: 13px;
+        }
+        .content-3 .heading-3{
+            font-size: 15px;
+        }
+        .content-3 .heading-4 .para4{
+            font-size: 10px;
+    }
+    .content-3 .button{
+        width: 200px;
+    }
+    .content-3 .button h2{
+        font-size: 15px;
+    }
+    }
+    @media (max-width:835px) {
+       .head4 .para5{
+        font-size: 80px;
+       }
+       .head4 .para5 br{
+        display: none;
+       }
+       .head4{
+        flex-direction: column;
+       }
+       .content-4{
+        flex-direction: column;
+       }
+       .head7 p{
+        font-size: 15px;
+       }
+       .head7 .main .q p{
+            font-size: 13px;
+       }
+       .head7 img{
+         margin-top: 100px;
+       }
+       header{
+        flex-direction: column;
+       }
+       .sec1{
+         height: 100vh;
+         width: 100vh;
+       }
+       .content-1 .image{
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+       }
+       .content-1 .image img{
+        width: 150px;
+       }
+       .content-7 img{
+         height: 250px;
+         margin-top: 40px;
+       }
+       .content-7 .main .q p{
+        font-size: 20px;
+       }
+       .content-7 .main .q p br{
+        display: none;
+       }
+       .content-7 .main .q  h1{
+        font-size: 13px;
+       }
+       .content-7 .main .q{
+        display: flex;
+        flex-direction: column;
+       }
+       .content-7 .head7 h1{
+        font-size: 20px;
+       }
+       .content-4 .image3 img{
+          margin-left: 120px;
+       }
+    }
+    @media (max-width:574px) {
+        .logo img{
+            margin-left: 130px;
+        }
+        .link ul li a{
+            font-size: 9px;
+        }
+        .sec1{
+           height: 300px;
+            /* height: 100vh; */
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .content-1 .content p{
+            font-size: 15px;
+        }
+       .content-1 .image img{
+             width: 100px;
+       }
+       .content-2 .head #head1{
+        font-size: 20px;
+       }
+       .content-2 .head #head2{
+        font-size: 13px;
+       }
+       .content-2 #para2{
+        margin-top: 100px;
+        font-size: 13px;
+       }
+       .content-2 .head2 #para3{
+        font-size: 10px;
+       }
+       .content-3 .heading-3{
+        font-size: 10px;
+       }
+       .content-3 .heading-4 .para4 {
+            font-size: 7px;
+        }
+        .content-3 .button {
+            width: 110px;
+        }
+        .content-3 .button h2 {
+            font-size: 12px;
+        }
+        .content-4 .para5{
+            font-size: 10px;
+        }
+        .content-4 .image3 img {
+            margin-left: 50px;
+            width: 300px;
+        }
+        .content-5 .head5 h1{
+            font-size: 15px;
+        }
+        .content-5 .head5 p{
+            font-size: 15px;
+        }
+        .ek {
+            display: flex;
+            width: 100px;
+            flex-direction: column;
+            column-gap: 20px;
+        }
+        .eight .ek p {
+            font-size: 8px;
+        }
+    }
+    @media (max-width:400px) {
+        header .nav ul li a{
+            font-size: 6px;
+        }
+        .banner1{
+            display: flex;
+            flex-direction: column;
+        }
+        .banner1 .image {
+            display: flex;
+            column-gap: 5px;
+        }
+        .banner1 .image img{
+            width: 70px;
+        }
+        .banner1 .para1 h1{
+            font-size: 13px;
+        }
+        .banner1 .para1 p{
+            font-size: 15px;
+        }
+        .banner1 .para1 p br{
+            display: none;
+        }
+    }
